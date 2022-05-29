@@ -1,0 +1,136 @@
+padding-top: 100px;
+text-align: center;
+height:100%;
+margin-left: -180px;
+margin-right: -280px;
+width: 100%;  
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.get-started{
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 500px;
+    height: 90vh;
+    width: 100%;
+    background-color: hsl(218, 28%, 15%);
+    
+}
+
+.intro{
+    margin-top: -20px;
+    background-image: url('../images/bg-curvy-mobile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    background-color: hsl(218, 28%, 15%);
+}
+
+.intro .note{
+    color: hsl(0, 0%, 100%);
+   margin-top: -20px ;
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.note h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    line-height: 2.6rem;
+    padding-left: 400px;
+    padding-right:200px ;
+}
+
+.note p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 1.8rem;
+    padding-left: 400px;
+    padding-right:350px ;
+}
+
+.btn{
+    color:hsl(0, 0%, 100%) ;
+    border: 1px solid hsl(176, 68%, 64%);
+    background: hsl(176, 68%, 64%);
+    padding:10px 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+@media (max-width:850px){
+    .get-started{
+        background-color: hsl(218, 28%, 15%);
+        display: flex;
+        justify-content: center;
+    }
+
+    .get-started img{
+        width: 650px;
+        padding-right: 50px;
+    }
+  
+    .intro{
+     padding-left: 200px;
+     padding-bottom: 400px;
+     text-align: center;
+     width:fit-content;   
+    }
+
+    .note h4{
+        font-size: 30px;
+        line-height: 2.6rem;
+        padding-left: 10px;
+        margin-right: 250px;
+    }
+
+    .note p{
+        padding-top: 20px;
+        font-size: 18px;
+        line-height: 1.8rem;
+        padding-left: 10px;
+        padding-right:480px ;
+    }
+
+    .btn{
+        padding:8px 100px;
+        margin-top: 20px;
+        font-size: 14px;
+        margin-right: 600px;
+        color: hsl(0, 0%, 100%);  
+        margin-left: 100px;
+    } 
+}
+
+@media (max-width:354px){
+    .get-started img{
+        width: 300px;
+        margin-left: -400px;
+    }
+
+    .intro .note{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: -100px;
+        margin-right: -50px;
+        width: 100%;
+    }
+
+    .intro{
+        margin-top: -5px;
+       }
+
+       .note h4{
+         padding-left: -100px;
+    }
+   
+}
